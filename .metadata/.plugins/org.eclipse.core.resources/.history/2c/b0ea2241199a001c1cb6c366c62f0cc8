@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package test;
+import test.testcode1;
+import java.util.Scanner;
+/**
+ * @author Admin
+ *
+ */
+public class testcode {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		testcode1 hinhChuNhat = new testcode1();
+        
+        // nhập chiều dài và chiều rộng hình chữ nhật
+		hinhChuNhat.nhap();
+         
+        
+         
+        // tính chu vi và diện tích
+        double chuVi = hinhChuNhat.tinhCV();
+        double dienTich = hinhChuNhat.tinhDT();
+         
+        // hiển thị chu vi và diện tích
+//        hinhChuNhat.hienThiChuViVaDienTich(chuVi, dienTich);	}
+
+}
